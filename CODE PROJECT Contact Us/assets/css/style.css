@@ -1,0 +1,432 @@
+body{
+    margin:0;
+}
+nav{
+    /* margin-top: 10px; */
+    width: 100vw;
+    font-family: 'Scada', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #1c658c;
+    /* position: fixed; */
+    z-index: 1;
+    /* background-color: aliceblue; */
+}
+
+nav a{
+    color: rgba(255, 255, 255, 0.479);
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: white;
+    cursor: pointer;
+    font-family: 'Scada';
+}
+
+nav .logo{
+    font-family: 'Scada';
+    margin-left: 5vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .logo {
+    margin-left: 5vw;
+}
+
+nav .logo a{
+    font-family: 'Scada';
+    color: white;
+}
+
+nav .logo:hover{
+    cursor: pointer;
+}
+
+.burgerbox{
+    display: none;
+}
+
+.burgerbox-isi{
+    display: none;
+} 
+
+.shapeburger .shape{
+    background-color: white;
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+}
+
+.burgerbutton{
+    position: relative;
+}
+
+.burgerbox-isi{
+
+    width: 150px;
+    position: absolute;
+}
+
+.burgerbox-isi .isi{
+    background-color: white;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burgerbox-isi a{
+    color: black;
+    font-weight: lighter;
+}
+
+.burgerbox-isi .isi:hover{
+    background-color: #1c658c;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.burgerbox-isi a:hover{
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+.menu #selected{
+    font-weight: bolder;
+    color: white;
+}
+
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+}
+
+
+
+.loginbtn .logins-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7.8vw;
+    /* background-color: aqua; */
+    /* background-color: aliceblue; */
+}
+
+.solidBtn{
+    background-color: #398AB9;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+}
+
+.banner{
+    background-image: url('../img/banner.svg');
+    width: 100%;
+    height:800px;
+    font-family: 'Calibri';
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.banner .deskripsi{
+    margin-left: 5vw;
+}
+
+.banner .deskripsi .judul h1{
+    font-size: 6.771vw;
+    /* background-color: aqua; */
+}
+
+.banner .deskripsi .text{
+    font-size: 20px;
+    /* background-color: black; */
+    width: 70vw;
+    margin-top: -4.5vw;
+    font-weight: lighter;
+}
+
+.kontenform{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+}
+
+.kontenform .judul{
+    display: flex;
+    font-size: 3.125vw;
+    font-family: 'Calibri';
+}
+
+.kontenform .judul .bold{
+    margin-right: 1vw;
+}
+
+.kontenform .judul .notbold{
+    font-weight: lighter;
+}
+
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+/* YG DIUBAH START DARI SINI */
+.inputan{
+    width: 100%;
+    margin-top: 1vw;
+    height: 30px;
+}
+
+.inputan-box{
+    margin-top: 0.5vw;
+}
+
+#pesan-id{
+    width: 100%;
+    margin-top: 1vw;
+}
+
+.err-msg{
+    display:none;
+    color: red;
+}
+
+.inputan-service{
+    margin-top: 1vw;
+    height: 30px;
+    color: gray;
+    width: 100%;
+}
+
+option{
+    color: gray;
+    width: 100%;
+}
+
+textarea{
+    font-family: sans-serif;
+    resize: none;
+    height: 100px;
+
+}
+
+/* YG DIUBAH END DI SINI */
+
+.button-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.submit{
+    margin-top: 2vw;
+    background-color: #175374;
+    color: white;
+    width: 100px ;
+    height: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer{
+    display: flex;
+    background-color: #1C658C;
+    background-size: cover;
+    justify-content: space-between;
+    height: 20vw;
+    margin-top: 5vw;
+}
+
+.footer .kiri {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 6.5vw;
+    width: 55vw;
+    height: 15vw;
+    /* background-color: yellow; */
+}
+
+.footer .kiri .textkiri{
+    font-size: 3.5vw;
+    color: white;
+    font-family: 'Scada';
+}
+
+.footer .kanan {
+    justify-content: flex-end;
+    width: 66vw;
+    height: 20vw;
+    margin-right: 5vw;
+    /* background-color: black; */
+}
+
+.footer .kanan .textkanan{
+    margin-top: 3vw;
+    color: white;
+    font-size: 1vw;
+    display:flex;
+    font-family: 'Calibri';
+    justify-content: flex-end;
+}
+
+.footer .kanan .textkanan b{
+    font-size: 1.5vw;
+}
+.footer .kanan .textkanan li{
+    list-style: none;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    font-weight: lighter;
+}
+
+.footer .kanan .textkanan .product{
+    margin-left : 5vw;
+}
+
+.footer .kanan .textkanan .company{
+    margin-left : 5vw;
+}
+
+.footer .kanan .textkanan .feature{
+    margin-left : 5vw;
+}
+
+
+.birutua{
+    background-color:#175374;
+    height:3vw;  
+    color: white; 
+    font-family: 'calibri';  
+    display:flex;
+    /* flex-direction: column; */
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer .gambarkiri img{
+    width: 12.2vw;
+}
+
+.footer-box {
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 55vw;
+    height: 3vw;
+    /* background-color: aquamarine; */
+}
+
+.footer-box p{
+    font-size: 1vw;
+}
+
+.footer-box .footertext1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer a:hover{
+    font-family: 'Scada';
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 850px) {
+    .burgerbox{
+        display: block;
+    }
+
+    .logins-menu .logs-button{
+        display: none;
+        background-color: black;
+    }
+
+    .loginbtn{
+        /* background-color: aliceblue; */
+        margin-left: 54vw;
+        margin-right: 11vw;
+    }
+
+
+    .logins-menu .burgerbutton{
+        /* background-color: #1C658C; */
+        margin-left: 14vw;
+    }
+
+    .menu{
+        display: none;
+    }
+
+
+    .shapeburger .shape{
+        background-color: white;
+        width: 3.6vw;
+        height: 0.4vw;
+        margin-bottom: 0.5vw;
+    }
+
+    .burgerbutton{
+        position: relative;
+    }
+
+    .burgerbox-isi{
+        width: 18vw;
+        position: absolute;
+    }
+
+    .burgerbox-isi .isi{
+        background-color: white;
+        height: 3.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .burgerbox-isi a{
+        color: black;
+        font-weight: lighter;
+    }
+
+    .burgerbox-isi .isi:hover{
+        background-color: #1c658c;
+        height: 3.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .burgerbox-isi a:hover{
+        color: white;
+        font-weight: lighter;
+    }
+
+    .loginbtn:hover .burgerbox-isi{
+        display: block;
+}
+}

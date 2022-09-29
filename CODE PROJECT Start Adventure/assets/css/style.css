@@ -1,0 +1,1185 @@
+body{
+    margin:0;
+}
+nav{
+    /* margin-top: 10px; */
+    width: 100vw;
+    font-family: 'Scada', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #1c658c;
+    /* position: fixed; */
+    z-index: 1;
+    /* background-color: aliceblue; */
+}
+
+nav a{
+    color: rgba(255, 255, 255, 0.479);
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: white;
+    cursor: pointer;
+    font-family: 'Scada';
+}
+
+nav .logo{
+    font-family: 'Scada';
+    margin-left: 5vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .logo {
+    margin-left: 5vw;
+}
+
+nav .logo a{
+    font-family: 'Scada';
+    color: white;
+}
+
+nav .logo:hover{
+    cursor: pointer;
+}
+
+.burgerbox{
+    display: none;
+}
+
+.burgerbox-isi{
+    display: none;
+} 
+
+.shapeburger .shape{
+    background-color: white;
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+}
+
+.burgerbutton{
+    position: relative;
+}
+
+.burgerbox-isi{
+
+    width: 150px;
+    position: absolute;
+}
+
+.burgerbox-isi .isi{
+    background-color: white;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burgerbox-isi a{
+    color: black;
+    font-weight: lighter;
+}
+
+.burgerbox-isi .isi:hover{
+    background-color: #1c658c;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.burgerbox-isi a:hover{
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+.menu #selected{
+    font-weight: bolder;
+    color: white;
+}
+
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+}
+
+
+
+.loginbtn .logins-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7.8vw;
+    /* background-color: aqua; */
+    /* background-color: aliceblue; */
+}
+
+.solidBtn{
+    background-color: #398AB9;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+}
+
+.menu #selected{
+    font-weight: bolder;
+    color: white;
+}
+
+/* background */
+.background{
+    background-image: url('../img/banner.svg');
+    background-size: cover;
+    height: 45vw;
+    width: 100vw;
+    background-color: #FA6E03;
+    font-family: 'calibri';
+}
+
+.background .konten{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    color:#FFFFFF;
+}
+
+.background .konten .tagline p{
+    font-size: 3vw;
+    font-weight: bold;
+    /* background-color: aqua; */
+    width:31vw;
+
+}
+
+.background .konten .tagline2 p{
+    margin-top: -2.5vw;
+    font-size: 1vw;
+    /* background-color: #FA6E03; */
+}
+
+.background .searchbar{
+    background-color: #FFFFFF;
+    width: 36vw;
+    height: 7.8vw;
+    border-radius: 2vw;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align:left;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.background .searchbar .search{
+    background-color: #1C658C;
+    width: 6.25vw;
+    height: 2.083vw;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Calibri';
+    font-weight: 10;
+    font-size: 0.938vw;
+}
+
+
+
+.background .searchbar .search:hover{
+    background-color: #398AB9;
+    cursor: pointer;
+}
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownisi{
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 4px rgba(228, 228, 228, 0.3);
+    width: 165px;
+    display: none;
+}
+
+.dropdownisi .isi a{
+    color: black;
+    display: block;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.dropdownisi .isi a:hover{
+    color: white;
+    background-color: #398AB9;
+    cursor: pointer;
+}
+
+.dropdown .dropdown-ikon{
+    display: flex;
+    justify-content: space-around;
+    width: 5.208vw;
+    height: 1.042vw;
+}
+
+.background .loks{
+    font-size: 0.833vw;
+}
+
+.background .type{
+    font-size: 0.833vw;
+}
+
+.background .price{
+    font-size: 0.833vw;
+}
+
+.dropdown .dropdown-ikon .ikon{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown .dropdown-ikon .namatype{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    margin-left: -1vw;
+}
+
+
+.dropdownisi .isi:hover{
+    background-color:#398AB9;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdownisi{
+    display: block;
+    cursor: pointer;
+}
+
+/* WHAT WE OFFER */
+.whatweoffer{
+    /* background-color: #F89446; */
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    /* background-color: #F89446; */
+}
+
+.whatweoffer .judul{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    /* background-color: #398AB9; */
+
+}
+
+.weoffer-box{
+    margin-top: 50px;
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .weoffer-box .kotak{
+    background-color: #F89446;
+} */
+
+.weoffer-box .icon{
+    display: flex;
+    justify-content: center;
+}
+
+.weoffer-box .icon img{
+    width: 13vw;
+    height: 13vw;
+}
+
+.weoffer-box .text{
+    /* background-color: aqua; */
+    font-family: 'Poppins';
+}
+
+.weoffer-box .text p{
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+
+
+.weoffer-box .text .judul{
+    display: flex;
+    justify-content: center;
+}
+
+.weoffer-box .text .judul p{
+    font-weight: bolder;
+    font-size: 1.56vw;
+    letter-spacing: 0.104;
+}
+
+.weoffer-box .text .des li{
+    font-size: 1.302vw;
+    font-weight: lighter;
+}
+
+.whatweoffer .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.whatweoffer .button .contactus{
+    background-color: #E5E5E5;
+    width: 9.375vw;
+    height: 2.865vw;
+    border-radius: 50px;
+    box-shadow: 3.90476px 7.80952px 19.5238px rgba(0, 0, 0, 0.2);
+    font-size: 0.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1C658C;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.whatweoffer .button .contactus:hover{
+    background-color: white;
+    width: 9.375vw;
+    height: 2.865vw;
+    border-radius: 2.604vw;
+    box-shadow: 3.90476px 7.80952px 19.5238px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* POPULAR DES */
+.popdes-kotak{
+
+    margin-top: 100px;
+    width: 100%;
+    height: 900px;
+    /* background-color: #F89446; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.populardes{
+    /* margin-left: 5vw; */
+    /* background-color: red; */
+    font-family: 'Poppins';
+    width: 88.188vw;
+    height: 150px;
+}
+
+.populardes p{
+    font-size: 1.042vw;
+    margin-top: -1vw;
+}
+
+.populardes h1{
+    font-size: 1.823vw;
+}
+
+.content1{
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 10vw;
+    width: 90%;
+    /* background-color: #FA6E03; */
+}
+
+.container-frame
+{
+    display: flex;
+    /* background-color: #FA6E03; */
+    width: 92.188vw;
+    height: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.frame{
+    /* margin-right: 1vw; */
+    /* width: 21vw; */
+    width: 350px;
+    /* height: 26.042vw; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid #E4E4E4;
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* overflow: hidden; */
+}
+
+.content1 .gambar
+{
+    width: 100%;
+    height: 330px;
+    /* background-color: yellow; */
+
+}
+
+.content1 .gambar img
+{
+    width: 100%;
+    height: 100%;
+    /* padding-top: 50px; */
+    background-position: center;
+    object-fit: none;
+}
+
+.frame:hover{
+    box-shadow: 0px 0px 50px 15px #E4E4E4;
+    cursor: pointer;
+}
+
+/* .frame .gambar img{
+    width: 500px;
+    height: 380px
+    /* background-color: #175374;  */
+/* } */
+
+.keterangan{
+    margin-top: 1vw;
+    width: 90%;
+    height: 130px;
+    font-family: 'Poppins';
+    /* background-color: #FA6E03; */
+    /* margin-left: 3vw; */
+}
+
+
+.keterangan .baris1 .judul b{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+.keterangan .baris1 .lokasi{
+    margin-top: 0.2vw;
+    display: flex;
+}
+
+.keterangan .baris1 .lokasi .icon{
+    margin-right: 0.2vw;
+}
+
+.keterangan .baris1 .lokasi .namlok{
+    font-size: 14px;
+    align-items: center;
+}
+
+.keterangan .baris2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: #1C658C; */
+}
+
+.keterangan .baris2 .rate{
+    display: flex;
+    align-items: center;
+}
+
+.keterangan .baris2 .poin{
+    margin-left: 0.5vw;
+}
+
+
+.keterangan .baris2 .harga{
+    font-size: 25px;
+    align-items: center;
+    font-weight: 600;
+    /* background-color: #398AB9; */
+}
+
+
+
+
+/* Content 2 */
+.content2{
+    /* background-color: red; */
+    font-family: 'Poppins';
+    margin-bottom: 4vw;
+}
+
+.content2 .offer{
+    background-color: aquamarine;
+}
+
+.content2 .baris1 {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    /* background-color: bisque; */
+    margin-bottom: 2vw;
+}
+
+.speoff{
+    font-weight: bolder;
+    font-size: 35px;
+    /* background-color: pink; */
+}
+
+
+
+.content2 p{
+    /* background: green; */
+    text-align: center;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    font-weight: 100;
+    margin-top: -0vw;
+    font-size: 1vw;
+}
+
+.content2 .container-offer{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2 .container-offer .frames{
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.content2 .container-offer .frames:hover{
+    box-shadow: 0px 0px 50px 15px #E4E4E4;
+    cursor: pointer;
+}
+
+.content2 .container-offer .frames .gambar{
+    width: 500px;
+}
+
+.content2 .container-offer .frames .container-overlay{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    width: 100%;
+    margin-top: 1vh;
+    margin-right: 4vw;
+}
+
+.content2 .container-offer .frames .overlay-discount{
+    background-color: #F89446;
+    color: white;
+    width: 6.4vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin-right: 0.5vw;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.deskripsis{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.deskripsis .desatas .namarate{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.deskripsis .desatas .namarate .nama b{
+    font-size: 23px;
+}
+
+
+.deskripsis .desatas .lokasi{
+    display: flex;
+    /* background-color: #1c658c; */
+}
+
+.deskripsis .desatas .lokasi .icon{
+    margin-right: 0.5vw;
+}
+
+.deskripsis .desatas .lokasi .namlok{
+    display: flex;
+}
+
+.discountnrate{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #1c658c; */
+    align-items: center;
+}
+
+.discountnrate .rate{
+    display: flex;
+    align-items: center;
+}
+
+.discountnrate .rate .poin{
+    margin-left: 0.5vw;
+}
+
+.discountnrate .discount{
+    text-decoration: line-through;
+}
+
+.deskripsis .desbawah .hargaasli{
+    display: flex;
+    justify-content: end;
+    /* background-color: #FA6E03; */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.deskripsis .desbawah .viewsdirection{
+    display: flex;
+    justify-content: end;
+}
+
+.deskripsis .desbawah .viewsdetail-kotak{
+    font-weight: bold;
+    background-color: #EEEEEE;
+    margin-top: 1.4vw;
+    margin-bottom: 1.5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskripsis .desbawah .viewsdetail-kotak:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.deskripsis .desbawah .viewsdetail-kotak .textviews{
+    color: #1C658C;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.content3 {
+    margin-left: 5vw;
+    margin-right:5vw;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+
+
+.content3 .teks h1{
+    font-family: 'Poppins';
+    font-size: 2.604vw;
+    font-weight: bold;
+    
+}
+
+.content3 .teks p{
+    font-family: 'calibri';
+    font-weight: lighter;
+    margin-top: -1.6vw;
+    font-size: 1.250vw;
+}
+
+.content3 .teks b{
+    font-family: 'Poppins';
+}
+
+.content3 .gambars{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+}
+
+.content3 .gambars .gambar{
+    position: relative;
+}
+
+.content3 .gambars .gambar .gambardestination{
+    display: block;
+}
+
+.content3 .gambars .gambar .overlay-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 1.042vw;
+    font-family: 'Calibri';
+    opacity: 0;
+    display: flex;
+    align-items: end;
+    font-weight: bolder;
+    transition: .7s;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+
+.content3 .gambars .gambar .overlay-1 .text{
+    padding-bottom: 1vw;
+    font-family: 'Calibri';
+
+}
+
+.content3 .gambars .gambar .overlay-1 .text p{
+    margin-top: -1.5vw;
+    font-weight: lighter;
+    font-size: 1.042vw;
+    
+}
+
+.content3 .gambars .gambar .overlay:hover,
+.content3 .gambars .gambar .overlay-1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.content3 .gambars .gambar img{
+    width: 26.563vw;
+    height:20.833vw;
+}
+
+.content3 .gambar img{
+    border-radius: 20px;
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    background-color: #1C658C;
+    background-size: cover;
+    justify-content: space-between;
+    height: 20vw;
+    margin-top: 5vw;
+}
+
+.footer .kiri {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 6.5vw;
+    width: 55vw;
+    height: 15vw;
+    /* background-color: yellow; */
+}
+
+.footer .kiri .textkiri{
+    font-size: 3.5vw;
+    color: white;
+    font-family: 'Scada';
+}
+
+.footer .kanan {
+    justify-content: flex-end;
+    width: 66vw;
+    height: 20vw;
+    margin-right: 5vw;
+    /* background-color: black; */
+}
+
+.footer .kanan .textkanan{
+    margin-top: 3vw;
+    color: white;
+    font-size: 1vw;
+    display:flex;
+    font-family: 'Calibri';
+    justify-content: flex-end;
+}
+
+.footer .kanan .textkanan b{
+    font-size: 1.5vw;
+}
+.footer .kanan .textkanan li{
+    list-style: none;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    font-weight: lighter;
+}
+
+.footer .kanan .textkanan .product{
+    margin-left : 5vw;
+}
+
+.footer .kanan .textkanan .company{
+    margin-left : 5vw;
+}
+
+.footer .kanan .textkanan .feature{
+    margin-left : 5vw;
+}
+
+
+.birutua{
+    background-color:#175374;
+    height:3vw;  
+    color: white; 
+    font-family: 'calibri';  
+    display:flex;
+    /* flex-direction: column; */
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer .gambarkiri img{
+    width: 12.2vw;
+}
+
+.footer-box {
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 55vw;
+    height: 3vw;
+    /* background-color: aquamarine; */
+}
+
+.footer-box p{
+    font-size: 1vw;
+}
+
+.footer-box .footertext1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer a:hover{
+    font-family: 'Scada';
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 850px) 
+{
+    .popdes-kotak
+    {
+        /* background-color: red; */
+        height: 440px;
+    }
+
+    .populardes
+    {
+        /* background-color: yellow; */
+        height: 60px;
+    }
+
+    .populardes h1
+    {
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    .populardes p
+    {
+        margin-top: 3px;
+        font-size: 10px;
+    }
+
+    .content1
+    {
+        /* background-color: orange; */
+        height: 350px;
+    }
+
+    .frame
+    {
+        width: 180px;
+        height: 300px;
+    }
+
+    .gambar
+    {
+        height: 250px!important;
+        object-fit: cover;
+        /* background-color: #1c658c; */
+    }
+
+    .keterangan 
+    {
+        /* background-color: red; */
+        height: 130px;
+    }
+
+    .baris1
+    {
+        /* background-color: yellow; */
+        height: 53px;
+    }
+
+    .baris1 .judul b
+    {
+        font-size: 18px!important;
+    }
+
+    .lokasi .namlok
+    {
+        width: 100px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        /* background-color: orange; */
+    }
+
+    .lokasi .icon img
+    {
+        width: 60%;
+        height: 60%;
+    }
+
+    .lokasi .namlok
+    {
+        font-size: 12px!important;
+    }
+
+    .baris2
+    {
+        /* background-color: blue; */
+        height: 30px;
+        align-items: center;
+    }
+
+    .baris2 .rate .bintang img
+    {
+        width: 60%;
+        height: 60%;
+    }
+
+    .baris2 .rate .poin
+    {
+        font-size: 12px!important;
+        margin: 0px;
+    }
+
+    .baris2 .harga
+    {
+        font-size: 15px!important;
+    }
+
+    .content2
+    {
+        /* background-color: red; */
+        height: 600px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .content2 .baris1
+    {
+        /* background-color: yellow; */
+        height: 110px;
+    }
+
+    .container-offer
+    {
+        /* background-color: blue; */
+        height: 450px;
+        width: 90%;
+        margin: 0px!important;
+        align-items: center;
+    }
+
+    .frames
+    {
+        width:230px;
+        height: 370px;
+    }
+
+    .content2 .frames .gambar
+    {
+        width: 50px;
+        height: 220px;
+        object-fit: cover;
+        margin: 0px;
+        /* background-color: yellow; */
+    }
+
+    .content2 .frames .gambar img
+    {
+        width: 90%;
+        margin-left: -90px;
+        /* margin-top: 10px; */
+        height: 90%;
+        /* display: none; */
+    }
+
+    .container-overlay .overlay-discount
+    {
+        margin: 0px;
+    }
+
+
+    .deskripsis
+    {
+        /* background-color: red; */
+        margin-top: -40px;
+    }
+
+    .nama b
+    {
+        font-size: 18px!important;
+    }
+
+
+    .desbawah .discountnrate .rate img
+    {
+        width: 60%;
+        height: 60%;
+    }
+
+    .desbawah .discountnrate .poin
+    {
+        font-size: 12px!important;
+    }
+
+    .desbawah .hargaasli
+    {
+        font-size: 18px!important;
+    }
+    
+    .deskripsis .desbawah .viewsdetail-kotak
+    {
+        margin-top: 0px;
+    }
+
+    .content3 .overlay-1{
+        display: none;
+    }
+
+    .content3 .overlay-1 .text{
+        display: none;
+    }
+
+    .burgerbox{
+        display: block;
+    }
+
+    .logins-menu .logs-button{
+        display: none;
+        background-color: black;
+    }
+
+    .loginbtn{
+        /* background-color: aliceblue; */
+        margin-left: 54vw;
+        margin-right: 11vw;
+    }
+
+
+    .logins-menu .burgerbutton{
+        /* background-color: #1C658C; */
+        margin-left: 14vw;
+    }
+
+    .menu{
+        display: none;
+    }
+
+
+    .shapeburger .shape{
+        background-color: white;
+        width: 3.6vw;
+        height: 0.4vw;
+        margin-bottom: 0.5vw;
+    }
+
+    .burgerbutton{
+        position: relative;
+    }
+
+    .burgerbox-isi{
+        width: 18vw;
+        position: absolute;
+    }
+
+    .burgerbox-isi .isi{
+        background-color: white;
+        height: 3.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .burgerbox-isi a{
+        color: black;
+        font-weight: lighter;
+    }
+
+    .burgerbox-isi .isi:hover{
+        background-color: #1c658c;
+        height: 3.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .burgerbox-isi a:hover{
+        color: white;
+        font-weight: lighter;
+    }
+
+    .loginbtn:hover .burgerbox-isi{
+        display: block;
+}
+
+
+
+
+}
